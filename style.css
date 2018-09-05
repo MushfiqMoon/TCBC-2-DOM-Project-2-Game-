@@ -1,0 +1,15 @@
+.gmscreen{
+    height: 500px;
+    width: 500px;
+    background: #ddd;
+}
+
+
+.ball{
+    height: 25px;
+    width: 25px;
+    background: #f32929;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+}   
