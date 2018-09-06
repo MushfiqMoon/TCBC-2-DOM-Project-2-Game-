@@ -13,42 +13,53 @@ let ball = document.querySelector('.ball');
 let x = 0;
 let y = 0;
 
-const gameover =  () => console.log('Game Over');
+const gameover = () => console.log('Game Over');
 
 let movingBallRight = function () {
-    if (x>=280){
-        gameover()    
-    }else{
-        x = x + 20;
-        ball.style.left = `${x}px`;
-    }
+    setInterval(function () {
+        if (x >= 580) {
+            gameover()
+        } else {
+            x = x + 20;
+            ball.style.left = `${x}px`;
+        }
+    }, 500)
+
+
+
 }
 
 let movingBallLeft = function () {
-    if (x<=0){
-        gameover()    
-    }else{
-        x = x - 20;
-        ball.style.left = `${x}px`;
-    }
+    setInterval(function () {
+        if (x <= 0) {
+            gameover()
+        } else {
+            x = x - 20;
+            ball.style.left = `${x}px`;
+        }
+    }, 500)
 }
 
 let movingBallTop = function () {
-    if (y<=0){
-        gameover()    
-    }else{
-        y = y - 20;
-        ball.style.top = `${y}px`;
-    }
+    setInterval(function () {
+        if (y <= 0) {
+            gameover()
+        } else {
+            y = y - 20;
+            ball.style.top = `${y}px`;
+        }
+    }, 500)
 }
 
 let movingBallBottom = function () {
-    if (y>=280){
-        gameover()    
-    }else{
-        y = y + 20;
-        ball.style.top = `${y}px`;
-    }
+    setInterval(function () {
+        if (y >= 380) {
+            gameover()
+        } else {
+            y = y + 20;
+            ball.style.top = `${y}px`;
+        }
+    }, 500)
 }
 
 

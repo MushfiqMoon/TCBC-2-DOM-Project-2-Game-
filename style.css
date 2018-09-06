@@ -1,8 +1,9 @@
 .gmscreen{
     height: 400px;
-    width: 400px;
+    width: 600px;
     background: #ddd;
     position: relative;
+    border: 3px solid #6c757d;
 }
 
 
