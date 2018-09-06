@@ -4,6 +4,8 @@
     background: #ddd;
     position: relative;
     border: 3px solid #6c757d;
+    box-sizing: content-box;
+    
 }
 
 
