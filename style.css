@@ -1,6 +1,6 @@
 .gmscreen{
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     background: #ddd;
     position: relative;
 }
@@ -14,5 +14,10 @@
     border-radius: 50%;
     left: 0;
     top: 0;
+    transition: 0.5s cubic-bezier(0.96, -0.43, 0.16, 1.4);
+    -webkit-transition: 0.5s cubic-bezier(0.96, -0.43, 0.16, 1.4);
+    -moz-transition: 0.5s cubic-bezier(0.96, -0.43, 0.16, 1.4);
+    -ms-transition: 0.5s cubic-bezier(0.96, -0.43, 0.16, 1.4);
+    -o-transition: 0.5s cubic-bezier(0.96, -0.43, 0.16, 1.4);
 }   
 
